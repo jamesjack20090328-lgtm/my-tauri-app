@@ -17,7 +17,7 @@ function App() {
     
     <main className="container">
       <h1>欢迎来到我的第一个 tauri 应用</h1>
-      <Calculator />
+      <Calculator/>
       <div className="row">
         <a href="https://vite.dev" target="_blank">
           <img src="/vite.svg" className="logo vite" alt="Vite logo" />
