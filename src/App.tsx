@@ -14,7 +14,7 @@ function App() {
 
   return (
     <main className="container">
-      <h1>Welcome to Tauri + React</h1>
+      <h1>我的第一个 tauri 应用</h1>
 
       <div className="row">
         <a href="https://vite.dev" target="_blank">
