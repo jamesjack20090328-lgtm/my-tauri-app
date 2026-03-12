@@ -1,5 +1,6 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
+import Calculator from "./Calculator";
 import { invoke } from "@tauri-apps/api/core";
 import "./App.css";
 
@@ -13,9 +14,10 @@ function App() {
   }
 
   return (
+    
     <main className="container">
       <h1>欢迎来到我的第一个 tauri 应用</h1>
-
+      <Calculator />
       <div className="row">
         <a href="https://vite.dev" target="_blank">
           <img src="/vite.svg" className="logo vite" alt="Vite logo" />
@@ -49,3 +51,4 @@ function App() {
 }
 
 export default App;
+
